@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template: "header header" "main aside" "footer footer" ;
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-columns: 85vw 15vw;
+    font-family: 'Fredoka', sans-serif;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    color:aliceblue
+}
+
+h3{
+    text-align: center;
+    font-size: 15px;
+}
+
+header {
+    text-align: center;
+    grid-area: header;
+    background:linear-gradient(rgb(0, 0, 0), rgb(38, 45, 141));
+}
+main{
+    padding: 30px 5px 0;
+    grid-area: main;
+    background: linear-gradient(rgb(43, 50, 139), rgb(173, 218, 255));
+}
+aside{
+    grid-area: aside;
+    background-color: rgb(227, 255, 251);
+}
+footer{
+    font-size: 10px;
+    text-align: center;
+    grid-area: footer;
+    background: linear-gradient(rgb(62, 139, 43), rgb(118, 241, 106));
+}
+
+.container{
+    margin: 5px;
+    display: flex ;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.box{
+    margin-bottom: 8px;
+}
+.azul{
+    position: relative;
+    background-color: rgb(192, 192, 192);
+    width: 300px;
+    height: 180px;
+    border: 2px solid black;
+}
+.cinza{
+    margin-left: 10px;
+    background-color: none;
+} 
+figcaption{
+    text-align: center;
+}
