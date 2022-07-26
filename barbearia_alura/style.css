@@ -1,0 +1,215 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(white , #7e7c7c);
+}
+/*Cabecalho*/
+header{
+	background-color: #BBBBBB;
+}
+  
+.caixa{
+	position: relative;
+	width: 80%;
+	left: 10%;
+}
+  
+.caixa nav{
+	position: absolute;
+	top: 120px;
+	right: 0;
+}
+  
+.caixa li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+  
+.caixa a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	transition: 0.5s all;
+}
+.caixa a:hover{
+	color: orange;
+	text-decoration: underline;
+	font-size: 23px; 
+}
+
+/*home page*/
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+#banner {
+	width:100%;
+	background-color: #FFFFFF;
+}
+
+.principal{
+	padding: 30px;
+	margin: 0 auto;
+}
+
+.utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.principal p {
+	margin: 0 0 1em 0;
+}
+
+.titulo-home {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+}
+
+.principal .missao {
+	font-size: 20px;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.beneficios {
+	padding: 20px;
+	clear: left;
+}
+
+.beneficios li {
+	font-style: italic
+}
+
+.beneficios ul {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.beneficios img {
+	width: 50%;
+	position: relative;
+	right: 0;
+}
+.beneficios .video iframe{
+	width: 60%;
+	margin: 3em 20%;
+}
+
+/*contato*/
+form {
+    width: 90vw;
+    margin: 20px auto;
+}
+
+legend{
+	margin: 0;
+}
+
+fieldset, select{
+	margin: 0;
+	padding: 0;
+}
+
+.input-padrao{
+    box-sizing: border-box;
+    margin: 10px 0 20px;
+    padding: 10px 0;
+    width: 50%;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.button{
+	width: 40%;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 20px;
+	background-color: orange;
+	border: none;
+	border-radius: 10px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+.button:hover{
+	transform: scale(1.2);
+	background-color: darkorange;
+}
+
+table{
+	margin: 60px 80px;
+}
+
+thead{
+	background: #777777;
+}
+
+td, th{
+	border: #000000 1px solid;
+	padding: 5px;
+}
+
+/*produtos*/
+.boxProd{
+	width: 80%;
+	margin: 40px 10%;
+}
+		
+.boxProd li{
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	padding: 30px 5px;
+	margin: 10px 1.5%;
+	vertical-align: top;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 10px;
+	transition: 0.5s all;
+}
+		
+.boxProd li:hover{
+	transform: scale(1.1);
+	border-color: orange;
+}
+		
+.boxProd h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+		
+.boxProd img{
+	width: 100%;
+}
+		
+.descCorte{
+	font-size: 18px;
+}
+		
+.valorCorte{
+	margin-top: 10px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+/*rodape*/
+footer {
+	text-align: center;
+	background: url("imagens/bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
